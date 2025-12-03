@@ -1,0 +1,70 @@
+.reel {
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  background-color: #f2f2f2;
+
+  .reel-container {
+    position: relative;
+  }
+
+  > ::before {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0,0,0,0.2) 75%, rgba(0, 0, 0, 0) 100%);
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 91px;
+    height: 60px;
+    z-index: 10;
+    top: 6px;
+  } 
+
+  > ::after {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0,0,0,0.2) 75%, rgba(0, 0, 0, 0) 100%);
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 91px;
+    height: 60px;
+    bottom: 30px;
+    z-index: 10;
+  }
+
+  .wheel {
+    height: 800px;
+    width: 80px;
+    position: absolute;
+    z-index: 1;
+    background-image: url("/img/reel.png");
+    overflow: hidden;
+    margin-left: 8px;
+
+    &.w1 {
+      top: -30px;
+    }
+    &.w2 {
+      top: -1230px;
+    }
+
+
+    &.wheel1 {
+      background-position: 0px 0px;
+    }
+    &.wheel2 {
+      background-position: -80px 0px;
+    }
+    &.wheel3 {
+      background-position: -160px 0px;
+    }
+  }
+}
+
+
+// .indeterminate {
+//   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 75%, rgba(0, 0, 0, 0) 100%);
+// }
