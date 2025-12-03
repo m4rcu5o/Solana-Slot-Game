@@ -160,5 +160,7 @@ This Solana casino game is available as an educational resource for the blockcha
 
 ---
 
-**Keywords**: Solana casino game, blockchain gambling, decentralized slot machine, Solana gambling game, crypto casino, blockchain casino game, Solana gaming, on-chain casino, provably fair gaming, Solana dApp, cryptocurrency gambling, Solana slot machine, decentralized casino, Web3 gambling
+## Contact
+
+Telegram [RRR](https://t.me/idioRusty)
 
