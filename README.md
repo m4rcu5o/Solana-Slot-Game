@@ -162,5 +162,5 @@ This Solana casino game is available as an educational resource for the blockcha
 
 ## Contact
 
-Telegram [RRR](https://t.me/idioRusty)
+Telegram [RRR](https://t.me/microRustyme)
 
